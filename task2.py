@@ -9,6 +9,5 @@ while len(mat) < num:
             mat.append(1)
         else:
             mat.append(0)
-#print(mat)
-print(mat[:num])
 
+print(*mat[:num], sep='')
